@@ -6,7 +6,7 @@
  position: relative;
 
 }
-#cta{
+#cta{ 
     margin-left: 12%;
     width: 40%;
     display: flex;
@@ -15,6 +15,9 @@
     margin-top: 5%;
     height: 100vh;
 }
+ #mobile-img-home{
+    display: none;
+ }
 #cta .title{
     font-size: 4rem;
 }
@@ -50,19 +53,59 @@ color: white;
     width: 60%;
     display: flex;
     justify-content: center;
-    height: 90vh
+    height: 80vh
 }
 #banner img{
     height: 100%;
     width: fit-content;
 }
-.shape {
-    background-color: #83aa7cd7;
-    width: 40%;
-    height: 68%;
-    position:absolute ;
-    border-radius: 40% 20% 0% 20%;
-    top: 20px;
-    right: 100px;
-    z-index: -1;
+
+
+@media screen and (min-width:200px) and (max-width:992px){
+  
+    #home{
+        min-height: 100%;
+        display: block;
+        }
+        .shape, #banner,#banner img{
+           display: none;
+        }
+        #cta{
+            width: 100%;
+            text-align: center;
+            align-items: center;
+            margin: auto;
+            padding: 5%;
+        }
+        #cta-buttons{
+        display:block;
+        
+     }
+        #phone-button{
+            margin-top: 15%;
+        }
+    #mobile-img-home{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+       
+    }
+    #mobile-img-home img{
+        width: 60%; 
+        height: 100%;
+    
 }
+  }
+  @media screen and (min-width:1500px){
+    
+    .shape {
+        background-color: #83aa7cd7;
+        width: 40%;
+        height: 68%;
+        position:absolute ;
+        border-radius: 40% 20% 30% 25%;
+        top: 20px;
+        right: 100px;
+        z-index: -1;
+    }
+  }
