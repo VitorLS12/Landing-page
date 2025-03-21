@@ -1,0 +1,40 @@
+@import url(variaveis.css);
+
+#contato{
+
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0px;
+    text-align: center;
+    width: 100%;
+   min-height: 100vh;
+}
+#container-contato{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    background-color: white;
+    border-radius: 30px;
+    width: 80%;
+    height: 700px;
+    border: 2px black solid;
+    gap: 25px;
+    padding: 50px;
+    
+
+}
+.input-search{
+    margin-top: 15px;
+    float:left;
+    background-color:transparent;
+    padding:20px;
+    font-style:italic;
+    font-size:18px;
+    border-radius: 10px;
+    height:32px;
+    width:90%;
+}
+

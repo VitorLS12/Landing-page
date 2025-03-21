@@ -1,0 +1,11 @@
+@import url(variaveis.css);
+
+footer{
+    background-color:var(--generic-items);
+    width:100vw;
+   }
+   #footer-items{
+    text-align: center;
+    font-size: 1.3rem;
+    color: white;
+   }
