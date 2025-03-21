@@ -2,6 +2,11 @@
 header{
     width: 100%;
     padding: 28px 8%;
+    top: 0px;
+    position: fixed;
+    background-color:var(--fundo);
+    z-index:3 ;
+    
 }
 #navbar{
     width: 100%;
@@ -24,8 +29,8 @@ header{
     font-weight: 600;
 }
 .nav-item.active a{
-    color: #312814;
-    border-bottom: 3px solid #2B7904;
+    color: #000000;
+    border-bottom: 3px solid var(--generic-items);
 }
 #mobile-btn{
     display: none;
